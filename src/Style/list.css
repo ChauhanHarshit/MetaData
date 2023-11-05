@@ -1,0 +1,52 @@
+.flex-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    max-width: 50%;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    height:95px;
+    cursor: pointer;
+}
+.flex-list > span{
+    margin: 20px;
+}
+.flex-list span.image{
+    height:70px;
+    width:70px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.flex-f{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-f div{
+    width: calc(50% - 60px);
+    margin:0 15px;
+    margin-bottom: 20px;
+}
+
+.list-name{
+    flex:1
+}
+.list{
+    margin-top: 80px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 10px;
+}
+.flex-list:hover{
+    background: rgba(255,255,255,0.1);
+    border-radius: 12px;
+}
+
+.cart-btn{
+    color:aqua
+}
